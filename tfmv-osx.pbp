@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.42 LTS (MacOS X - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="tfmv"/>
+  </section>
+  <section name="data">
+    <explorer view="../../" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2016-11-21 06:58" user="deseven" host="de7air.local"/>
+  </section>
+  <section name="files">
+    <file name="mapedit.pb">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="2a5a3f238f12ba1108ff46b3c6dc16b4"/>
+    </file>
+    <file name="osx.pbi">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="bce8735abed4a0c1da64e5681c7fc794"/>
+    </file>
+    <file name="proc.pb">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="858c4ec10c9cbd3ec40305405e0f1cbb"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="mapedit.pb"/>
+      <outputfile value="tfmv.app"/>
+      <options unicode="1" xpskin="1" debug="1"/>
+      <temporaryexe value="source"/>
+      <tools>TFMV_INJECT,TFMV_INJECT_BUILD</tools>
+    </target>
+  </section>
+</project>
