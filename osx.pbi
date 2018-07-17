@@ -76,7 +76,7 @@ Procedure CatchImageEx(Image, *MemoryAddress, MemorySize)
   EndIf
   ProcedureReturn Result
 EndProcedure
-; IDE Options = PureBasic 5.42 LTS (MacOS X - x64)
+; IDE Options = PureBasic 5.44 Beta 3 LTS (MacOS X - x64)
 ; Folding = -
 ; EnableUnicode
 ; EnableXP

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.42 LTS (Windows - x86)">
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.50 (Windows - x64)">
   <section name="config">
     <options closefiles="1" openmode="0" name="TFMV"/>
   </section>
   <section name="data">
     <explorer view="C:\Program Files (x86)\PureBasic\Examples\" pattern="0"/>
     <log show="1"/>
-    <lastopen date="2016-11-20 15:43" user="de7" host="D7WIN"/>
+    <lastopen date="2016-12-19 07:00" user="de7" host="D7WIN"/>
   </section>
   <section name="files">
     <file name="getimage.pbi">
@@ -16,11 +16,11 @@
     </file>
     <file name="mapedit.pb">
       <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
-      <fingerprint md5="2a5a3f238f12ba1108ff46b3c6dc16b4"/>
+      <fingerprint md5="de206b80aaf3577507e533a18e67aa85"/>
     </file>
     <file name="proc.pb">
       <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
-      <fingerprint md5="858c4ec10c9cbd3ec40305405e0f1cbb"/>
+      <fingerprint md5="246331a51171167cf2a28f7d734163c0"/>
     </file>
   </section>
   <section name="targets">
@@ -28,15 +28,15 @@
       <inputfile value="mapedit.pb"/>
       <outputfile value="tfmv.exe"/>
       <executable value="tfmv.exe"/>
-      <options unicode="1" xpskin="1" debug="1"/>
+      <options unicode="1" xpskin="1"/>
       <icon enable="1">icns\map.ico</icon>
       <versioninfo enable="1">
-        <field0 value="1,2,0,0"/>
-        <field1 value="1,2,0,0"/>
+        <field0 value="1,3,0,0"/>
+        <field1 value="1,3,0,0"/>
         <field2 value="solution"/>
         <field3 value="TFMV"/>
-        <field4 value="1.2"/>
-        <field5 value="1.2"/>
+        <field4 value="1.3"/>
+        <field5 value="1.3"/>
         <field6 value="Map viewer for Transport Fever"/>
         <field7 value="tfmv.exe"/>
         <field8 value="tfmv.exe"/>
